@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+<h1> Rip Lists Read-Me </h1>
+<hr>
+<h3>Why make Rip Lists?</h3>
+<br>
+Diving is a very niche sport, and when it comes to niche things, it can be hard to find programs to make your life easier. When a diver competes, there are a couple different events they could be competing in and for any of those events, they have rules for what dives you compete or how many you are able to do. At each meet, you are expected to have a dive card for every diver, showing the dives they plan to compete with their information such as direction, number of spins, degree of difficulty, etc. It can get burdensome to hand write dive cards, especially for 11 dive meets when there's a lot of rules associated with that type of meet. Rip Lists is a way for divers or coaches to create and download dive cards for meets and have the peace of mind knowing everything is entered correctly.
+<br>
+<h3>How do you use it?</h3>
+<h4>Front Page</h4>
+<br>
+The front page has two options (for now), 6 or 11 dive meets. For simplicity's sake, we will walk through how to make a 6 dive card.
+<img src="img/MainPage.PNG" width=400>
+The first page is pretty self explanatory. You will enter the information of the diver, meet, coach, team, and date.
+<img src="img/DiverInfo6.PNG">
+Next, you will enter the dive numbers you plan to do. In diving, there are numbers that are associated with each dive. The number is broken down into three sections: direction, rotations, and position. For dive number 103b, the "1" indicates that it's a forward direction, the "03" indicates that there's 1.5 rotations (each half rotation adds a whole number), and the "b" tells us that the dive is in a pike position. If people are not familiar with the dive numbers or rules of the event, there's a "Rules" and "Dives" modal that can be looked through to make sure you're entering the correct dive.
+<img src="img/EnterSixDives.PNG" >
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h4>Rules Modal:</h4>
+<img src="img/SixDiveRules.PNG">
+<h4>Dives Modal:</h4>
+<img src="img/Modal.PNG">
+Once all dives are entered, you can submit your dives and move on to the next page.
+<br>
+The "List Check" page will go through the entered dives and determine if everything was entered correctly and if rules were followed. If a dive is entered wrong or not entered at all, "Invalid Dive" will come up in place of the entry. If the dives are entered how the diver or athlete wants, then they can submit the card for download.
+<img src="img/SixDiveCheck.PNG">
+All that's left to do is name the download of the card and submit! The file will be downloaded directly to your device as a PDF. Below is the finished dive card. As you can see, there's a lot of information that is needed to fill out a dive card. This takes a 5-10 minute process and brings it down to less than a minute and also has the peace of mind of knowing it's done right.
+<img src="img/SixCardDownload.PNG">
+<b>Finished Card:</b>
+<img src="img/SixDiveCard.PNG">
+<hr>
+<h3>What's Next?</h3>
+<br>
+Rip Lists will continue to be built upon and made better and better. An app version is currently in the works. For now, the rules only follow NFHS diving rules for 1 meter diving. There's a whole world of different types of meets with other rules, other amounts of diving, and of course, different heights of boards/platforms.
